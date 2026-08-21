@@ -1,0 +1,101 @@
+<!--
+Task 3: Build an HTML Form showcasing all inputs
+
+Follow this:
+    - Put h1 tag as "Sign Up"
+    - Put a <form> with attributes action="#" and method="POST"
+    
+    - Try to copy & paste these inputs and observe what it does. Trust
+      your intuition for the meaning of every inputs:
+
+    [RULE OF THUMB: Each input must have   id --- their unique identifier that you can put
+                                         name --- required for the form to recognize it---important in PHP and SQL]
+                                         type --- dictates the input type
+                                         
+                    It is clean to use label for every input
+                    The for attribute value is equal to the id of its respective input]
+
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="09XXXXXXXXX">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="1" max="120">
+
+        <label for="search">Search</label>
+        <input type="search" id="search" name="search">
+
+        <label for="website">Website</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+
+        <label for="birthdate">Birth date</label>
+        <input type="date" id="birthdate" name="birthdate">
+
+        <label for="appointment">Appointment</label>
+        <input type="datetime-local" id="appointment" name="appointment">
+
+        <label for="month">Preferred month</label>
+        <input type="month" id="month" name="month">
+
+        <label for="week">Preferred week</label>
+        <input type="week" id="week" name="week">
+
+        <label for="color">Favorite color</label>
+        <input type="color" id="color" name="color">
+
+        <label for="satisfaction">Satisfaction</label>
+        <input
+        type="range"
+        id="satisfaction"
+        name="satisfaction"
+        min="0"
+        max="100"
+        value="50"
+        >
+
+        <label>
+            <input type="checkbox" name="terms" required>
+            I agree to the terms
+        </label> 
+        
+        [For radio button, they must have same name attribute value for it to work]
+        <p>Account type</p>
+        <label>
+        <input type="radio" name="account_type" value="personal" checked>
+        Personal
+        </label>
+
+        <label>
+        <input type="radio" name="account_type" value="business">
+        Business
+        </label>
+        [end of radio]]
+
+        <label for="profile">Profile picture</label>
+        <input type="file" id="profile" name="profile">
+
+        <label for="about">About you</label>
+        <textarea id="about" name="about" rows="4"></textarea>
+
+
+        <input type="submit" value="Create account">
+
+        <input type="reset" value="Reset form">
+
+        <input type="button" value="Regular button">
+
+
+
+* Your learn <img>, <video>, <iframe>---website inside website
+* <tag attriburte1="value1" attribute2="value2"  attributeN="valueN">
+-->
+
+<!--START YOUR CODE BELOW-->
